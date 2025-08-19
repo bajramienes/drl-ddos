@@ -1,0 +1,27 @@
+# Python cache / venv
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+
+# Jupyter / experiments
+.ipynb_checkpoints/
+
+# Logs and results
+*.log
+*.out
+*.err
+*.json
+results/
+
+# Docker
+*.pid
+*.sock
+
+# OS files
+.DS_Store
+Thumbs.db
