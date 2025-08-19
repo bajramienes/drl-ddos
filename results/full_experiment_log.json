@@ -1,0 +1,1522 @@
+{
+    "device": "cpu",
+    "env_id": "CartPole-v1",
+    "work_scale": 1.0,
+    "n_envs": 4,
+    "algorithms": {
+        "PPO": {
+            "Early Phase": {
+                "phase": "Early Phase",
+                "train_episodes": 120,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 120000,
+                "training_time_sec": 330.65,
+                "fps": 362.92,
+                "iterations_est": 14,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 99.8,
+                    "ram_percent": 80.0,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 13.77,
+                        "mem_mb": 2.27,
+                        "net_rx_mb": 112.52,
+                        "net_tx_mb": 47.35
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.45,
+                        "mem_mb": 15.6,
+                        "net_rx_mb": 47.72,
+                        "net_tx_mb": 113.4
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.16,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 0.6,
+                        "net_tx_mb": 0.25
+                    }
+                },
+                "model_path": "./results\\ppo_Early_Phase.zip"
+            },
+            "Mid Phase": {
+                "phase": "Mid Phase",
+                "train_episodes": 320,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 320000,
+                "training_time_sec": 843.08,
+                "fps": 379.56,
+                "iterations_est": 39,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 100.0,
+                    "ram_percent": 79.5,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 14.16,
+                        "mem_mb": 1.53,
+                        "net_rx_mb": 248.97,
+                        "net_tx_mb": 104.85
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.58,
+                        "mem_mb": 15.0,
+                        "net_rx_mb": 105.4,
+                        "net_tx_mb": 250.28
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.14,
+                        "mem_mb": 0.52,
+                        "net_rx_mb": 1.15,
+                        "net_tx_mb": 0.48
+                    }
+                },
+                "model_path": "./results\\ppo_Mid_Phase.zip"
+            },
+            "Extended Phase": {
+                "phase": "Extended Phase",
+                "train_episodes": 520,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 520000,
+                "training_time_sec": 1572.44,
+                "fps": 330.7,
+                "iterations_est": 63,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.7,
+                    "ram_percent": 83.3,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.2,
+                        "mem_mb": 2.58,
+                        "net_rx_mb": 598.85,
+                        "net_tx_mb": 255.17
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.77,
+                        "mem_mb": 14.84,
+                        "net_rx_mb": 256.2,
+                        "net_tx_mb": 601.32
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.11,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 2.17,
+                        "net_tx_mb": 0.9
+                    }
+                },
+                "model_path": "./results\\ppo_Extended_Phase.zip"
+            },
+            "Pre-Final Phase": {
+                "phase": "Pre-Final Phase",
+                "train_episodes": 700,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 700000,
+                "training_time_sec": 2154.86,
+                "fps": 324.85,
+                "iterations_est": 85,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.4,
+                    "ram_percent": 78.9,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.67,
+                        "mem_mb": 3.56,
+                        "net_rx_mb": 1082.53,
+                        "net_tx_mb": 463.27
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.86,
+                        "mem_mb": 15.01,
+                        "net_rx_mb": 465.06,
+                        "net_tx_mb": 1086.8
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 3.55,
+                        "net_tx_mb": 1.48
+                    }
+                },
+                "model_path": "./results\\ppo_Pre-Final_Phase.zip"
+            },
+            "Final Phase": {
+                "phase": "Final Phase",
+                "train_episodes": 900,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 900000,
+                "training_time_sec": 2828.31,
+                "fps": 318.21,
+                "iterations_est": 109,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.1,
+                    "ram_percent": 88.8,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.8,
+                        "mem_mb": 2.43,
+                        "net_rx_mb": 1644.99,
+                        "net_tx_mb": 704.5
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.89,
+                        "mem_mb": 14.05,
+                        "net_rx_mb": 706.96,
+                        "net_tx_mb": 1650.88
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 5.34,
+                        "net_tx_mb": 2.22
+                    }
+                },
+                "model_path": "./results\\ppo_Final_Phase.zip"
+            }
+        },
+        "A2C": {
+            "Early Phase": {
+                "phase": "Early Phase",
+                "train_episodes": 120,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 120000,
+                "training_time_sec": 200.61,
+                "fps": 598.17,
+                "iterations_est": 6000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.4,
+                    "ram_percent": 90.3,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.78,
+                        "mem_mb": 2.2,
+                        "net_rx_mb": 1687.25,
+                        "net_tx_mb": 722.49
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.89,
+                        "mem_mb": 14.0,
+                        "net_rx_mb": 725.04,
+                        "net_tx_mb": 1693.36
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 5.51,
+                        "net_tx_mb": 2.3
+                    }
+                },
+                "model_path": "./results\\a2c_Early_Phase.zip"
+            },
+            "Mid Phase": {
+                "phase": "Mid Phase",
+                "train_episodes": 320,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 320000,
+                "training_time_sec": 520.52,
+                "fps": 614.77,
+                "iterations_est": 16000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.7,
+                    "ram_percent": 87.5,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.76,
+                        "mem_mb": 2.28,
+                        "net_rx_mb": 1783.12,
+                        "net_tx_mb": 763.35
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.88,
+                        "mem_mb": 13.86,
+                        "net_rx_mb": 766.02,
+                        "net_tx_mb": 1789.49
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 5.89,
+                        "net_tx_mb": 2.45
+                    }
+                },
+                "model_path": "./results\\a2c_Mid_Phase.zip"
+            },
+            "Extended Phase": {
+                "phase": "Extended Phase",
+                "train_episodes": 520,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 520000,
+                "training_time_sec": 915.12,
+                "fps": 568.23,
+                "iterations_est": 26000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.9,
+                    "ram_percent": 89.5,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.7,
+                        "mem_mb": 2.35,
+                        "net_rx_mb": 1924.62,
+                        "net_tx_mb": 823.53
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.88,
+                        "mem_mb": 13.7,
+                        "net_rx_mb": 826.49,
+                        "net_tx_mb": 1931.7
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.52,
+                        "net_rx_mb": 6.5,
+                        "net_tx_mb": 2.71
+                    }
+                },
+                "model_path": "./results\\a2c_Extended_Phase.zip"
+            },
+            "Pre-Final Phase": {
+                "phase": "Pre-Final Phase",
+                "train_episodes": 700,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 700000,
+                "training_time_sec": 1238.58,
+                "fps": 565.16,
+                "iterations_est": 35000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.6,
+                    "ram_percent": 66.6,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.69,
+                        "mem_mb": 3.65,
+                        "net_rx_mb": 2121.36,
+                        "net_tx_mb": 907.44
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.87,
+                        "mem_mb": 13.82,
+                        "net_rx_mb": 910.79,
+                        "net_tx_mb": 2129.37
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.11,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 7.31,
+                        "net_tx_mb": 3.04
+                    }
+                },
+                "model_path": "./results\\a2c_Pre-Final_Phase.zip"
+            },
+            "Final Phase": {
+                "phase": "Final Phase",
+                "train_episodes": 900,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 900000,
+                "training_time_sec": 1320.07,
+                "fps": 681.78,
+                "iterations_est": 45000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.1,
+                    "ram_percent": 74.0,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.77,
+                        "mem_mb": 3.98,
+                        "net_rx_mb": 2423.25,
+                        "net_tx_mb": 1037.26
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.88,
+                        "mem_mb": 13.66,
+                        "net_rx_mb": 1040.91,
+                        "net_tx_mb": 2432.0
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.54,
+                        "net_rx_mb": 8.17,
+                        "net_tx_mb": 3.4
+                    }
+                },
+                "model_path": "./results\\a2c_Final_Phase.zip"
+            }
+        },
+        "DQN": {
+            "Early Phase": {
+                "phase": "Early Phase",
+                "train_episodes": 120,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 120000,
+                "training_time_sec": 123.72,
+                "fps": 969.92,
+                "iterations_est": 30000,
+                "eval_reward_mean": 68.225,
+                "eval_reward_std": 11.93940429837268,
+                "eval_reward_min": 46.0,
+                "eval_reward_max": 96.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.9,
+                    "ram_percent": 75.0,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.76,
+                        "mem_mb": 3.35,
+                        "net_rx_mb": 2448.81,
+                        "net_tx_mb": 1048.13
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.88,
+                        "mem_mb": 13.44,
+                        "net_rx_mb": 1051.85,
+                        "net_tx_mb": 2457.72
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 8.25,
+                        "net_tx_mb": 3.43
+                    }
+                },
+                "model_path": "./results\\dqn_Early_Phase.zip"
+            },
+            "Mid Phase": {
+                "phase": "Mid Phase",
+                "train_episodes": 320,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 320000,
+                "training_time_sec": 353.52,
+                "fps": 905.19,
+                "iterations_est": 80000,
+                "eval_reward_mean": 77.2,
+                "eval_reward_std": 8.83798619596116,
+                "eval_reward_min": 62.0,
+                "eval_reward_max": 100.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.3,
+                    "ram_percent": 75.3,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.76,
+                        "mem_mb": 2.87,
+                        "net_rx_mb": 2514.72,
+                        "net_tx_mb": 1076.31
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.88,
+                        "mem_mb": 14.1,
+                        "net_rx_mb": 1080.11,
+                        "net_tx_mb": 2523.83
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 8.47,
+                        "net_tx_mb": 3.53
+                    }
+                },
+                "model_path": "./results\\dqn_Mid_Phase.zip"
+            },
+            "Extended Phase": {
+                "phase": "Extended Phase",
+                "train_episodes": 520,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 520000,
+                "training_time_sec": 473.65,
+                "fps": 1097.85,
+                "iterations_est": 130000,
+                "eval_reward_mean": 172.7,
+                "eval_reward_std": 7.961469713564199,
+                "eval_reward_min": 158.0,
+                "eval_reward_max": 202.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.3,
+                    "ram_percent": 77.0,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.79,
+                        "mem_mb": 3.7,
+                        "net_rx_mb": 2623.92,
+                        "net_tx_mb": 1123.19
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.88,
+                        "mem_mb": 13.55,
+                        "net_rx_mb": 1127.17,
+                        "net_tx_mb": 2633.44
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 8.78,
+                        "net_tx_mb": 3.65
+                    }
+                },
+                "model_path": "./results\\dqn_Extended_Phase.zip"
+            },
+            "Pre-Final Phase": {
+                "phase": "Pre-Final Phase",
+                "train_episodes": 700,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 700000,
+                "training_time_sec": 638.3,
+                "fps": 1096.66,
+                "iterations_est": 175000,
+                "eval_reward_mean": 172.86,
+                "eval_reward_std": 22.615490266629198,
+                "eval_reward_min": 141.0,
+                "eval_reward_max": 281.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.3,
+                    "ram_percent": 78.6,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.81,
+                        "mem_mb": 2.24,
+                        "net_rx_mb": 2768.7,
+                        "net_tx_mb": 1185.39
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.89,
+                        "mem_mb": 13.16,
+                        "net_rx_mb": 1189.4,
+                        "net_tx_mb": 2778.32
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 9.19,
+                        "net_tx_mb": 3.82
+                    }
+                },
+                "model_path": "./results\\dqn_Pre-Final_Phase.zip"
+            },
+            "Final Phase": {
+                "phase": "Final Phase",
+                "train_episodes": 900,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 900000,
+                "training_time_sec": 841.38,
+                "fps": 1069.67,
+                "iterations_est": 225000,
+                "eval_reward_mean": 121.96,
+                "eval_reward_std": 9.159606978468016,
+                "eval_reward_min": 108.0,
+                "eval_reward_max": 151.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.6,
+                    "ram_percent": 79.5,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.84,
+                        "mem_mb": 3.14,
+                        "net_rx_mb": 2952.66,
+                        "net_tx_mb": 1264.39
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.89,
+                        "mem_mb": 13.47,
+                        "net_rx_mb": 1268.7,
+                        "net_tx_mb": 2962.97
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 9.72,
+                        "net_tx_mb": 4.04
+                    }
+                },
+                "model_path": "./results\\dqn_Final_Phase.zip"
+            }
+        },
+        "SAC": {
+            "Early Phase": {
+                "phase": "Early Phase",
+                "train_episodes": 120,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 120000,
+                "training_time_sec": 2185.81,
+                "fps": 54.9,
+                "iterations_est": 30000,
+                "eval_reward_mean": 127.0875,
+                "eval_reward_std": 6.221321704429052,
+                "eval_reward_min": 114.0,
+                "eval_reward_max": 145.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.9,
+                    "ram_percent": 82.3,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.78,
+                        "mem_mb": 3.25,
+                        "net_rx_mb": 3309.8,
+                        "net_tx_mb": 1416.42
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.89,
+                        "mem_mb": 13.23,
+                        "net_rx_mb": 1421.38,
+                        "net_tx_mb": 3321.66
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 11.07,
+                        "net_tx_mb": 4.6
+                    }
+                },
+                "model_path": "./results\\sac_Early_Phase.zip"
+            },
+            "Mid Phase": {
+                "phase": "Mid Phase",
+                "train_episodes": 320,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 320000,
+                "training_time_sec": 5388.82,
+                "fps": 59.38,
+                "iterations_est": 80000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.3,
+                    "ram_percent": 85.9,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.75,
+                        "mem_mb": 3.31,
+                        "net_rx_mb": 4301.2,
+                        "net_tx_mb": 1840.11
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.88,
+                        "mem_mb": 12.73,
+                        "net_rx_mb": 1846.39,
+                        "net_tx_mb": 4316.27
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 14.45,
+                        "net_tx_mb": 6.0
+                    }
+                },
+                "model_path": "./results\\sac_Mid_Phase.zip"
+            },
+            "Extended Phase": {
+                "phase": "Extended Phase",
+                "train_episodes": 520,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 520000,
+                "training_time_sec": 8352.2,
+                "fps": 62.26,
+                "iterations_est": 130000,
+                "eval_reward_mean": 368.275,
+                "eval_reward_std": 51.749148543720025,
+                "eval_reward_min": 295.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.3,
+                    "ram_percent": 73.6,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.73,
+                        "mem_mb": 3.46,
+                        "net_rx_mb": 5916.28,
+                        "net_tx_mb": 2530.27
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.88,
+                        "mem_mb": 12.46,
+                        "net_rx_mb": 2538.75,
+                        "net_tx_mb": 5936.64
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 19.61,
+                        "net_tx_mb": 8.15
+                    }
+                },
+                "model_path": "./results\\sac_Extended_Phase.zip"
+            },
+            "Pre-Final Phase": {
+                "phase": "Pre-Final Phase",
+                "train_episodes": 700,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 700000,
+                "training_time_sec": 11908.97,
+                "fps": 58.78,
+                "iterations_est": 175000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.0,
+                    "ram_percent": 85.7,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.86,
+                        "mem_mb": 3.89,
+                        "net_rx_mb": 8290.06,
+                        "net_tx_mb": 3548.08
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.9,
+                        "mem_mb": 12.22,
+                        "net_rx_mb": 3559.64,
+                        "net_tx_mb": 8317.81
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.1,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 27.0,
+                        "net_tx_mb": 11.22
+                    }
+                },
+                "model_path": "./results\\sac_Pre-Final_Phase.zip"
+            },
+            "Final Phase": {
+                "phase": "Final Phase",
+                "train_episodes": 900,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 900000,
+                "training_time_sec": 14508.93,
+                "fps": 62.03,
+                "iterations_est": 225000,
+                "eval_reward_mean": 499.96,
+                "eval_reward_std": 0.39799497484264795,
+                "eval_reward_min": 496.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.7,
+                    "ram_percent": 84.9,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.99,
+                        "mem_mb": 3.62,
+                        "net_rx_mb": 11413.66,
+                        "net_tx_mb": 4889.05
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.92,
+                        "mem_mb": 12.14,
+                        "net_rx_mb": 4904.34,
+                        "net_tx_mb": 11450.39
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.09,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 35.98,
+                        "net_tx_mb": 14.96
+                    }
+                },
+                "model_path": "./results\\sac_Final_Phase.zip"
+            }
+        },
+        "TD3": {
+            "Early Phase": {
+                "phase": "Early Phase",
+                "train_episodes": 120,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 120000,
+                "training_time_sec": 1518.64,
+                "fps": 79.02,
+                "iterations_est": 30000,
+                "eval_reward_mean": 488.4625,
+                "eval_reward_std": 45.33154082700036,
+                "eval_reward_min": 268.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.6,
+                    "ram_percent": 84.5,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 16.0,
+                        "mem_mb": 3.53,
+                        "net_rx_mb": 11763.11,
+                        "net_tx_mb": 5038.91
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.93,
+                        "mem_mb": 12.19,
+                        "net_rx_mb": 5054.61,
+                        "net_tx_mb": 11800.8
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.09,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 36.96,
+                        "net_tx_mb": 15.37
+                    }
+                },
+                "model_path": "./results\\td3_Early_Phase.zip"
+            },
+            "Mid Phase": {
+                "phase": "Mid Phase",
+                "train_episodes": 320,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 320000,
+                "training_time_sec": 4518.32,
+                "fps": 70.82,
+                "iterations_est": 80000,
+                "eval_reward_mean": 9.475,
+                "eval_reward_std": 0.7066647012551285,
+                "eval_reward_min": 8.0,
+                "eval_reward_max": 11.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.8,
+                    "ram_percent": 85.9,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.94,
+                        "mem_mb": 3.3,
+                        "net_rx_mb": 12546.48,
+                        "net_tx_mb": 5371.56
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.92,
+                        "mem_mb": 11.82,
+                        "net_rx_mb": 5388.4,
+                        "net_tx_mb": 12586.96
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.09,
+                        "mem_mb": 0.54,
+                        "net_rx_mb": 39.73,
+                        "net_tx_mb": 16.51
+                    }
+                },
+                "model_path": "./results\\td3_Mid_Phase.zip"
+            },
+            "Extended Phase": {
+                "phase": "Extended Phase",
+                "train_episodes": 520,
+                "test_episodes": 80,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 520000,
+                "training_time_sec": 7000.15,
+                "fps": 74.28,
+                "iterations_est": 130000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 97.6,
+                    "ram_percent": 86.3,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.98,
+                        "mem_mb": 3.94,
+                        "net_rx_mb": 14120.96,
+                        "net_tx_mb": 6046.42
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.93,
+                        "mem_mb": 11.74,
+                        "net_rx_mb": 6065.06,
+                        "net_tx_mb": 14165.79
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.09,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 44.09,
+                        "net_tx_mb": 18.31
+                    }
+                },
+                "model_path": "./results\\td3_Extended_Phase.zip"
+            },
+            "Pre-Final Phase": {
+                "phase": "Pre-Final Phase",
+                "train_episodes": 700,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 700000,
+                "training_time_sec": 10505.43,
+                "fps": 66.63,
+                "iterations_est": 175000,
+                "eval_reward_mean": 9.27,
+                "eval_reward_std": 0.73287106642301,
+                "eval_reward_min": 8.0,
+                "eval_reward_max": 11.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.2,
+                    "ram_percent": 88.5,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.93,
+                        "mem_mb": 2.83,
+                        "net_rx_mb": 16235.46,
+                        "net_tx_mb": 6948.1
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.92,
+                        "mem_mb": 10.92,
+                        "net_rx_mb": 6969.4,
+                        "net_tx_mb": 16286.72
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.09,
+                        "mem_mb": 0.52,
+                        "net_rx_mb": 50.55,
+                        "net_tx_mb": 20.99
+                    }
+                },
+                "model_path": "./results\\td3_Pre-Final_Phase.zip"
+            },
+            "Final Phase": {
+                "phase": "Final Phase",
+                "train_episodes": 900,
+                "test_episodes": 100,
+                "timesteps_per_train_episode": 1000,
+                "total_timesteps": 900000,
+                "training_time_sec": 13059.37,
+                "fps": 68.92,
+                "iterations_est": 225000,
+                "eval_reward_mean": 500.0,
+                "eval_reward_std": 0.0,
+                "eval_reward_min": 500.0,
+                "eval_reward_max": 500.0,
+                "host_metrics_end": {
+                    "cpu_percent": 98.2,
+                    "ram_percent": 88.7,
+                    "temperature_c": null
+                },
+                "gpu_metrics_end": [
+                    {
+                        "id": 0,
+                        "name": "NVIDIA GeForce MX110",
+                        "load_percent": 0.0,
+                        "mem_used_mb": 0.0,
+                        "mem_total_mb": 2048.0,
+                        "mem_util_percent": 0.0,
+                        "temperature_c": 0.0
+                    }
+                ],
+                "docker_stats_end": {
+                    "ddos_attacker": {
+                        "cpu_percent": 15.88,
+                        "mem_mb": 2.79,
+                        "net_rx_mb": 18836.96,
+                        "net_tx_mb": 8057.08
+                    },
+                    "ddos_target": {
+                        "cpu_percent": 2.92,
+                        "mem_mb": 10.79,
+                        "net_rx_mb": 8081.68,
+                        "net_tx_mb": 18896.21
+                    },
+                    "ddos_monitor": {
+                        "cpu_percent": 0.09,
+                        "mem_mb": 0.53,
+                        "net_rx_mb": 58.63,
+                        "net_tx_mb": 24.34
+                    }
+                },
+                "model_path": "./results\\td3_Final_Phase.zip"
+            }
+        }
+    },
+    "baseline": {
+        "Early Phase": {
+            "phase": "Early Phase",
+            "test_episodes": 80,
+            "eval_reward_mean": 140.65,
+            "eval_reward_std": 36.64870393342717,
+            "eval_reward_min": 74.0,
+            "eval_reward_max": 230.0,
+            "testing_time_sec": 1.86,
+            "host_metrics_end": {
+                "cpu_percent": 84.3,
+                "ram_percent": 89.1,
+                "temperature_c": null
+            },
+            "gpu_metrics_end": [
+                {
+                    "id": 0,
+                    "name": "NVIDIA GeForce MX110",
+                    "load_percent": 0.0,
+                    "mem_used_mb": 0.0,
+                    "mem_total_mb": 2048.0,
+                    "mem_util_percent": 0.0,
+                    "temperature_c": 0.0
+                }
+            ],
+            "docker_stats_end": {
+                "ddos_attacker": {
+                    "cpu_percent": 15.88,
+                    "mem_mb": 2.43,
+                    "net_rx_mb": 18839.28,
+                    "net_tx_mb": 8058.08
+                },
+                "ddos_target": {
+                    "cpu_percent": 2.92,
+                    "mem_mb": 10.84,
+                    "net_rx_mb": 8082.63,
+                    "net_tx_mb": 18898.4
+                },
+                "ddos_monitor": {
+                    "cpu_percent": 0.09,
+                    "mem_mb": 0.53,
+                    "net_rx_mb": 58.63,
+                    "net_tx_mb": 24.34
+                }
+            }
+        },
+        "Mid Phase": {
+            "phase": "Mid Phase",
+            "test_episodes": 80,
+            "eval_reward_mean": 142.4,
+            "eval_reward_std": 37.11825696338663,
+            "eval_reward_min": 75.0,
+            "eval_reward_max": 232.0,
+            "testing_time_sec": 1.85,
+            "host_metrics_end": {
+                "cpu_percent": 88.1,
+                "ram_percent": 89.1,
+                "temperature_c": null
+            },
+            "gpu_metrics_end": [
+                {
+                    "id": 0,
+                    "name": "NVIDIA GeForce MX110",
+                    "load_percent": 0.0,
+                    "mem_used_mb": 0.0,
+                    "mem_total_mb": 2048.0,
+                    "mem_util_percent": 0.0,
+                    "temperature_c": 0.0
+                }
+            ],
+            "docker_stats_end": {
+                "ddos_attacker": {
+                    "cpu_percent": 15.88,
+                    "mem_mb": 3.31,
+                    "net_rx_mb": 18841.27,
+                    "net_tx_mb": 8058.93
+                },
+                "ddos_target": {
+                    "cpu_percent": 2.92,
+                    "mem_mb": 10.87,
+                    "net_rx_mb": 8083.54,
+                    "net_tx_mb": 18900.52
+                },
+                "ddos_monitor": {
+                    "cpu_percent": 0.09,
+                    "mem_mb": 0.53,
+                    "net_rx_mb": 58.64,
+                    "net_tx_mb": 24.34
+                }
+            }
+        },
+        "Extended Phase": {
+            "phase": "Extended Phase",
+            "test_episodes": 80,
+            "eval_reward_mean": 136.825,
+            "eval_reward_std": 36.224223594164165,
+            "eval_reward_min": 74.0,
+            "eval_reward_max": 254.0,
+            "testing_time_sec": 1.84,
+            "host_metrics_end": {
+                "cpu_percent": 86.1,
+                "ram_percent": 89.1,
+                "temperature_c": null
+            },
+            "gpu_metrics_end": [
+                {
+                    "id": 0,
+                    "name": "NVIDIA GeForce MX110",
+                    "load_percent": 0.0,
+                    "mem_used_mb": 0.0,
+                    "mem_total_mb": 2048.0,
+                    "mem_util_percent": 0.0,
+                    "temperature_c": 0.0
+                }
+            ],
+            "docker_stats_end": {
+                "ddos_attacker": {
+                    "cpu_percent": 15.88,
+                    "mem_mb": 3.25,
+                    "net_rx_mb": 18843.6,
+                    "net_tx_mb": 8059.94
+                },
+                "ddos_target": {
+                    "cpu_percent": 2.92,
+                    "mem_mb": 10.96,
+                    "net_rx_mb": 8084.58,
+                    "net_tx_mb": 18902.9
+                },
+                "ddos_monitor": {
+                    "cpu_percent": 0.09,
+                    "mem_mb": 0.53,
+                    "net_rx_mb": 58.64,
+                    "net_tx_mb": 24.34
+                }
+            }
+        },
+        "Pre-Final Phase": {
+            "phase": "Pre-Final Phase",
+            "test_episodes": 100,
+            "eval_reward_mean": 131.41,
+            "eval_reward_std": 31.980648836444825,
+            "eval_reward_min": 72.0,
+            "eval_reward_max": 224.0,
+            "testing_time_sec": 2.17,
+            "host_metrics_end": {
+                "cpu_percent": 84.3,
+                "ram_percent": 89.2,
+                "temperature_c": null
+            },
+            "gpu_metrics_end": [
+                {
+                    "id": 0,
+                    "name": "NVIDIA GeForce MX110",
+                    "load_percent": 0.0,
+                    "mem_used_mb": 0.0,
+                    "mem_total_mb": 2048.0,
+                    "mem_util_percent": 0.0,
+                    "temperature_c": 0.0
+                }
+            ],
+            "docker_stats_end": {
+                "ddos_attacker": {
+                    "cpu_percent": 15.88,
+                    "mem_mb": 2.76,
+                    "net_rx_mb": 18845.93,
+                    "net_tx_mb": 8060.95
+                },
+                "ddos_target": {
+                    "cpu_percent": 2.92,
+                    "mem_mb": 11.02,
+                    "net_rx_mb": 8085.57,
+                    "net_tx_mb": 18905.19
+                },
+                "ddos_monitor": {
+                    "cpu_percent": 0.09,
+                    "mem_mb": 0.53,
+                    "net_rx_mb": 58.65,
+                    "net_tx_mb": 24.35
+                }
+            }
+        },
+        "Final Phase": {
+            "phase": "Final Phase",
+            "test_episodes": 100,
+            "eval_reward_mean": 137.94,
+            "eval_reward_std": 34.32544828549221,
+            "eval_reward_min": 72.0,
+            "eval_reward_max": 239.0,
+            "testing_time_sec": 2.34,
+            "host_metrics_end": {
+                "cpu_percent": 84.0,
+                "ram_percent": 89.2,
+                "temperature_c": null
+            },
+            "gpu_metrics_end": [
+                {
+                    "id": 0,
+                    "name": "NVIDIA GeForce MX110",
+                    "load_percent": 0.0,
+                    "mem_used_mb": 0.0,
+                    "mem_total_mb": 2048.0,
+                    "mem_util_percent": 0.0,
+                    "temperature_c": 0.0
+                }
+            ],
+            "docker_stats_end": {
+                "ddos_attacker": {
+                    "cpu_percent": 15.88,
+                    "mem_mb": 3.45,
+                    "net_rx_mb": 18848.26,
+                    "net_tx_mb": 8061.96
+                },
+                "ddos_target": {
+                    "cpu_percent": 2.92,
+                    "mem_mb": 11.1,
+                    "net_rx_mb": 8086.58,
+                    "net_tx_mb": 18907.53
+                },
+                "ddos_monitor": {
+                    "cpu_percent": 0.09,
+                    "mem_mb": 0.52,
+                    "net_rx_mb": 58.65,
+                    "net_tx_mb": 24.35
+                }
+            }
+        }
+    },
+    "started_at": "2025-08-18 11:01:18",
+    "finished_at": "2025-08-19 13:23:57"
+}

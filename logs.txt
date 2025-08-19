@@ -1,0 +1,414 @@
+[INFO] PyTorch device = cpu (torch.cuda.is_available()=False)
+Already running: ddos_attacker
+Already running: ddos_target
+Already running: ddos_monitor
+
+[INFO] Test session START: 2025-08-18 11:01:18
+
+=== Early Phase START (PPO) ===
+Start time: 2025-08-18 11:01:18
+
+------------------------------
+| phase               | Early Phase
+| algo                | PPO
+| time/               |
+|    fps              | 307
+|    iterations       | 14
+|    time_elapsed(s)  | 389
+|    total_timesteps  | 120000
+------------------------------
+=== Early Phase END (PPO) ===
+
+=== Mid Phase START (PPO) ===
+Start time: 2025-08-18 11:08:17
+
+------------------------------
+| phase               | Mid Phase
+| algo                | PPO
+| time/               |
+|    fps              | 356
+|    iterations       | 39
+|    time_elapsed(s)  | 898
+|    total_timesteps  | 320000
+------------------------------
+=== Mid Phase END (PPO) ===
+
+=== Extended Phase START (PPO) ===
+Start time: 2025-08-18 11:23:21
+
+------------------------------
+| phase               | Extended Phase
+| algo                | PPO
+| time/               |
+|    fps              | 313
+|    iterations       | 63
+|    time_elapsed(s)  | 1660
+|    total_timesteps  | 520000
+------------------------------
+=== Extended Phase END (PPO) ===
+
+=== Pre-Final Phase START (PPO) ===
+Start time: 2025-08-18 11:51:07
+
+------------------------------
+| phase               | Pre-Final Phase
+| algo                | PPO
+| time/               |
+|    fps              | 313
+|    iterations       | 85
+|    time_elapsed(s)  | 2229
+|    total_timesteps  | 700000
+------------------------------
+=== Pre-Final Phase END (PPO) ===
+
+=== Final Phase START (PPO) ===
+Start time: 2025-08-18 12:28:23
+
+------------------------------
+| phase               | Final Phase
+| algo                | PPO
+| time/               |
+|    fps              | 309
+|    iterations       | 109
+|    time_elapsed(s)  | 2912
+|    total_timesteps  | 900000
+------------------------------
+=== Final Phase END (PPO) ===
+
+=== Early Phase START (A2C) ===
+Start time: 2025-08-18 13:17:02
+
+------------------------------
+| phase               | Early Phase
+| algo                | A2C
+| time/               |
+|    fps              | 424
+|    iterations       | 6000
+|    time_elapsed(s)  | 282
+|    total_timesteps  | 120000
+------------------------------
+=== Early Phase END (A2C) ===
+
+=== Mid Phase START (A2C) ===
+Start time: 2025-08-18 13:21:51
+
+------------------------------
+| phase               | Mid Phase
+| algo                | A2C
+| time/               |
+|    fps              | 533
+|    iterations       | 16000
+|    time_elapsed(s)  | 599
+|    total_timesteps  | 320000
+------------------------------
+=== Mid Phase END (A2C) ===
+
+=== Extended Phase START (A2C) ===
+Start time: 2025-08-18 13:31:57
+
+------------------------------
+| phase               | Extended Phase
+| algo                | A2C
+| time/               |
+|    fps              | 522
+|    iterations       | 26000
+|    time_elapsed(s)  | 996
+|    total_timesteps  | 520000
+------------------------------
+=== Extended Phase END (A2C) ===
+
+=== Pre-Final Phase START (A2C) ===
+Start time: 2025-08-18 13:48:40
+
+------------------------------
+| phase               | Pre-Final Phase
+| algo                | A2C
+| time/               |
+|    fps              | 532
+|    iterations       | 35000
+|    time_elapsed(s)  | 1313
+|    total_timesteps  | 700000
+------------------------------
+=== Pre-Final Phase END (A2C) ===
+
+=== Final Phase START (A2C) ===
+Start time: 2025-08-18 14:10:40
+
+------------------------------
+| phase               | Final Phase
+| algo                | A2C
+| time/               |
+|    fps              | 645
+|    iterations       | 45000
+|    time_elapsed(s)  | 1394
+|    total_timesteps  | 900000
+------------------------------
+=== Final Phase END (A2C) ===
+
+=== Early Phase START (DQN) ===
+Start time: 2025-08-18 14:34:01
+
+------------------------------
+| phase               | Early Phase
+| algo                | DQN
+| time/               |
+|    fps              | 926
+|    iterations       | 30000
+|    time_elapsed(s)  | 129
+|    total_timesteps  | 120000
+------------------------------
+=== Early Phase END (DQN) ===
+
+=== Mid Phase START (DQN) ===
+Start time: 2025-08-18 14:36:17
+
+------------------------------
+| phase               | Mid Phase
+| algo                | DQN
+| time/               |
+|    fps              | 888
+|    iterations       | 80000
+|    time_elapsed(s)  | 360
+|    total_timesteps  | 320000
+------------------------------
+=== Mid Phase END (DQN) ===
+
+=== Extended Phase START (DQN) ===
+Start time: 2025-08-18 14:42:23
+
+------------------------------
+| phase               | Extended Phase
+| algo                | DQN
+| time/               |
+|    fps              | 1066
+|    iterations       | 130000
+|    time_elapsed(s)  | 487
+|    total_timesteps  | 520000
+------------------------------
+=== Extended Phase END (DQN) ===
+
+=== Pre-Final Phase START (DQN) ===
+Start time: 2025-08-18 14:50:37
+
+------------------------------
+| phase               | Pre-Final Phase
+| algo                | DQN
+| time/               |
+|    fps              | 1056
+|    iterations       | 175000
+|    time_elapsed(s)  | 662
+|    total_timesteps  | 700000
+------------------------------
+=== Pre-Final Phase END (DQN) ===
+
+=== Final Phase START (DQN) ===
+Start time: 2025-08-18 15:01:46
+
+------------------------------
+| phase               | Final Phase
+| algo                | DQN
+| time/               |
+|    fps              | 1054
+|    iterations       | 225000
+|    time_elapsed(s)  | 853
+|    total_timesteps  | 900000
+------------------------------
+=== Final Phase END (DQN) ===
+
+=== Early Phase START (SAC) ===
+Start time: 2025-08-18 15:16:06
+
+------------------------------
+| phase               | Early Phase
+| algo                | SAC
+| time/               |
+|    fps              | 54
+|    iterations       | 30000
+|    time_elapsed(s)  | 2207
+|    total_timesteps  | 120000
+------------------------------
+=== Early Phase END (SAC) ===
+
+=== Mid Phase START (SAC) ===
+Start time: 2025-08-18 15:52:59
+
+------------------------------
+| phase               | Mid Phase
+| algo                | SAC
+| time/               |
+|    fps              | 58
+|    iterations       | 80000
+|    time_elapsed(s)  | 5492
+|    total_timesteps  | 320000
+------------------------------
+=== Mid Phase END (SAC) ===
+
+=== Extended Phase START (SAC) ===
+Start time: 2025-08-18 17:24:39
+
+------------------------------
+| phase               | Extended Phase
+| algo                | SAC
+| time/               |
+|    fps              | 61
+|    iterations       | 130000
+|    time_elapsed(s)  | 8412
+|    total_timesteps  | 520000
+------------------------------
+=== Extended Phase END (SAC) ===
+
+=== Pre-Final Phase START (SAC) ===
+Start time: 2025-08-18 19:44:58
+
+------------------------------
+| phase               | Pre-Final Phase
+| algo                | SAC
+| time/               |
+|    fps              | 58
+|    iterations       | 175000
+|    time_elapsed(s)  | 12023
+|    total_timesteps  | 700000
+------------------------------
+=== Pre-Final Phase END (SAC) ===
+
+=== Final Phase START (SAC) ===
+Start time: 2025-08-18 23:05:28
+
+------------------------------
+| phase               | Final Phase
+| algo                | SAC
+| time/               |
+|    fps              | 61
+|    iterations       | 225000
+|    time_elapsed(s)  | 14612
+|    total_timesteps  | 900000
+------------------------------
+=== Final Phase END (SAC) ===
+
+=== Early Phase START (TD3) ===
+Start time: 2025-08-19 03:09:06
+
+------------------------------
+| phase               | Early Phase
+| algo                | TD3
+| time/               |
+|    fps              | 75
+|    iterations       | 30000
+|    time_elapsed(s)  | 1582
+|    total_timesteps  | 120000
+------------------------------
+=== Early Phase END (TD3) ===
+
+=== Mid Phase START (TD3) ===
+Start time: 2025-08-19 03:35:35
+
+------------------------------
+| phase               | Mid Phase
+| algo                | TD3
+| time/               |
+|    fps              | 70
+|    iterations       | 80000
+|    time_elapsed(s)  | 4519
+|    total_timesteps  | 320000
+------------------------------
+=== Mid Phase END (TD3) ===
+
+=== Extended Phase START (TD3) ===
+Start time: 2025-08-19 04:51:01
+
+------------------------------
+| phase               | Extended Phase
+| algo                | TD3
+| time/               |
+|    fps              | 73
+|    iterations       | 130000
+|    time_elapsed(s)  | 7065
+|    total_timesteps  | 520000
+------------------------------
+=== Extended Phase END (TD3) ===
+
+=== Pre-Final Phase START (TD3) ===
+Start time: 2025-08-19 06:48:52
+
+------------------------------
+| phase               | Pre-Final Phase
+| algo                | TD3
+| time/               |
+|    fps              | 66
+|    iterations       | 175000
+|    time_elapsed(s)  | 10507
+|    total_timesteps  | 700000
+------------------------------
+=== Pre-Final Phase END (TD3) ===
+
+=== Final Phase START (TD3) ===
+Start time: 2025-08-19 09:44:06
+
+------------------------------
+| phase               | Final Phase
+| algo                | TD3
+| time/               |
+|    fps              | 68
+|    iterations       | 225000
+|    time_elapsed(s)  | 13144
+|    total_timesteps  | 900000
+------------------------------
+=== Final Phase END (TD3) ===
+
+=== BASELINE (rule-based) START ===
+
+------------------------------
+| phase               | Early Phase
+| algo                | BASELINE
+| time/               |
+|    fps              | 43
+|    iterations       | -
+|    time_elapsed(s)  | 1
+|    total_timesteps  | 80
+------------------------------
+
+------------------------------
+| phase               | Mid Phase
+| algo                | BASELINE
+| time/               |
+|    fps              | 43
+|    iterations       | -
+|    time_elapsed(s)  | 1
+|    total_timesteps  | 80
+------------------------------
+
+------------------------------
+| phase               | Extended Phase
+| algo                | BASELINE
+| time/               |
+|    fps              | 43
+|    iterations       | -
+|    time_elapsed(s)  | 1
+|    total_timesteps  | 80
+------------------------------
+
+------------------------------
+| phase               | Pre-Final Phase
+| algo                | BASELINE
+| time/               |
+|    fps              | 45
+|    iterations       | -
+|    time_elapsed(s)  | 2
+|    total_timesteps  | 100
+------------------------------
+
+------------------------------
+| phase               | Final Phase
+| algo                | BASELINE
+| time/               |
+|    fps              | 42
+|    iterations       | -
+|    time_elapsed(s)  | 2
+|    total_timesteps  | 100
+------------------------------
+
+All testing completed.
+   Master log: ./results\full_experiment_log.json
+Stopped container: ddos_attacker
+Stopped container: ddos_target
+Stopped container: ddos_monitor
