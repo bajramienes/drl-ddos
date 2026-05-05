@@ -1,0 +1,81 @@
+{
+    "started_at": "2026-05-03 14:30:46",
+    "device": "cpu",
+    "n_envs": 1,
+    "timesteps_per_train_episode": 8,
+    "seeds": [
+        42,
+        123,
+        2025
+    ],
+    "actions": {
+        "0": "no_action",
+        "1": "rate_limit",
+        "2": "block_suspicious_source",
+        "3": "scale_target_service",
+        "4": "hybrid_rate_limit_and_scale"
+    },
+    "phases": [
+        {
+            "phase": "Early Phase",
+            "train_episodes": 150,
+            "test_episodes": 20,
+            "attack_type": "low_rate_http_flood",
+            "attack_rate": 0.22,
+            "legitimate_rate": 0.78,
+            "burst_probability": 0.05,
+            "source_variation": 0.15,
+            "adaptive_shift": 0.05,
+            "max_steps": 80
+        },
+        {
+            "phase": "Mid Phase",
+            "train_episodes": 375,
+            "test_episodes": 25,
+            "attack_type": "mixed_tcp_http_flood",
+            "attack_rate": 0.42,
+            "legitimate_rate": 0.58,
+            "burst_probability": 0.13,
+            "source_variation": 0.3,
+            "adaptive_shift": 0.12,
+            "max_steps": 100
+        },
+        {
+            "phase": "Extended Phase",
+            "train_episodes": 650,
+            "test_episodes": 30,
+            "attack_type": "bursty_ddos",
+            "attack_rate": 0.61,
+            "legitimate_rate": 0.39,
+            "burst_probability": 0.31,
+            "source_variation": 0.52,
+            "adaptive_shift": 0.23,
+            "max_steps": 120
+        },
+        {
+            "phase": "Pre-Final Phase",
+            "train_episodes": 900,
+            "test_episodes": 35,
+            "attack_type": "legitimate_attack_overlap",
+            "attack_rate": 0.73,
+            "legitimate_rate": 0.27,
+            "burst_probability": 0.43,
+            "source_variation": 0.68,
+            "adaptive_shift": 0.35,
+            "max_steps": 140
+        },
+        {
+            "phase": "Final Phase",
+            "train_episodes": 1250,
+            "test_episodes": 40,
+            "attack_type": "high_intensity_adaptive_ddos",
+            "attack_rate": 0.88,
+            "legitimate_rate": 0.12,
+            "burst_probability": 0.56,
+            "source_variation": 0.85,
+            "adaptive_shift": 0.48,
+            "max_steps": 160
+        }
+    ],
+    "note": "Revised experiment: phase-specific DDoS scenarios, network-level mitigation metrics, repeated seeds, CSV outputs."
+}
