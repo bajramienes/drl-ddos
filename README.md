@@ -52,12 +52,14 @@ https://doi.org/10.1016/j.comnet.2026.112530
 
 ```text
 .
-├── charts_output/           Published figures
-├── results/                 Experimental results
+├── charts_output/                         Publication-quality figures generated for the paper
+├── results/                               Experimental results and evaluation outputs
+├── README.md                              Repository documentation
+├── docker_testbed.png                     Live Docker-based DDoS experimental environment
 ├── run_drl_ddos_q1_revision_3seed_progress.py
-├── start_ddos_env.ps1
-├── stop_clean_ddos_env.ps1
-└── README.md
+│                                          Main training and evaluation script
+├── start_ddos_env.ps1                     Starts the Docker-based DDoS testbed
+└── stop_clean_ddos_env.ps1                Stops containers and cleans the environment
 ```
 
 ---
